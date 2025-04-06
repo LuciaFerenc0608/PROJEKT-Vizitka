@@ -1,7 +1,112 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+*, ::after, ::before { box-sizing: inherit;}
 
+
+   
+
+
+body{
+background-color: #b2bec3 ;
+font-family: nunito,serif;
+font-size: 18px;
+}
+h1{
+    font-size: 36px;
+    color: #d63031;
+    font-weight: bold;
+}
+.box {
+    box-sizing: border-box;
+    width: 550px;
+    background-color: white;
+    margin-top:150px ;
+    margin-inline: auto;
+    border-radius: 10px;
+    box-shadow: inset;
+
+} 
+
+.box img {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150%;
+    border-radius: 100%;
+    border-color: white;
+    border-style:solid;
+    float: right;
+    
+    }
+
+    .box .text {
+        padding:30px ;
+    }
+
+
+    .paticka a {
+        
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        
+        
+
+    }
+ .paticka  .odkaz1  :hover {
+    background-color:#0b7bc1 ;
+ }
+
+
+   .paticka .odkaz1 {
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color:#1da1f2 ;
+    text-align: center;
+   margin:5px ;
+
+   } 
+   .paticka .odkaz2 :hover{
+    background-color:#2b406e ;
+   }
+
+ 
+
+   .paticka .odkaz2{
+    box-sizing:border-box ;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #3b5998;
+    margin: 5px;
+   }
+
+ .paticka {
+   
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+ }
+
+
+
+
+
+   
+  
+
+/*.contentbox {
+    width: 550px;
+    background-color: white;
+    margin-top:150px ;
+    margin-inline: auto;}
+    */
+
+
+
+ 
+      
+       
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
