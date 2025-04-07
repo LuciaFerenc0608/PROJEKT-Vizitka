@@ -17,6 +17,8 @@ h1{
     font-size: 36px;
     color: #d63031;
     font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .box {
     box-shadow: 5px 5px gray;
@@ -41,8 +43,8 @@ h1{
     border-color: white;
     border-style:solid;
     position: absolute;
-    right:-55px;
-    top: -55px;
+    right:-75px;
+    top: -75px;
 /*position: absolute;
     top:0;
     right:0;*/
@@ -107,7 +109,7 @@ h1{
     box-sizing: border-box;
     border-radius: 10px;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 
     
  }
