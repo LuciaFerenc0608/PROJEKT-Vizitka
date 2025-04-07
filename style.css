@@ -10,6 +10,8 @@ body{
 background-color: #b2bec3 ;
 font-family: nunito,serif;
 font-size: 18px;
+position: relative;
+
 }
 h1{
     font-size: 36px;
@@ -17,29 +19,44 @@ h1{
     font-weight: bold;
 }
 .box {
+    box-shadow: 5px 5px gray;
+    position: relative;
     box-sizing: border-box;
     width: 550px;
     background-color: white;
     margin-top:150px ;
     margin-inline: auto;
     border-radius: 10px;
-    box-shadow: inset;
+     
+    
+    /*position: relative;*/
 
 } 
 
 .box img {
     box-sizing: border-box;
     width: 150px;
-    height: 150%;
+    height: 150px;
     border-radius: 100%;
     border-color: white;
     border-style:solid;
-    float: right;
+    position: absolute;
+    right:-55px;
+    top: -55px;
+/*position: absolute;
+    top:0;
+    right:0;*/
+
     
     }
 
     .box .text {
-        padding:30px ;
+    display: inline-block;
+    margin:30px;
+
+    
+
+        
     }
 
 
@@ -48,9 +65,11 @@ h1{
         color: white;
         text-decoration: none;
         font-weight: 700;
-        
-        
-
+       box-sizing: border-box;
+       display: inline-block;
+       margin: 10px;
+       
+       
     }
  .paticka  .odkaz1  :hover {
     background-color:#0b7bc1 ;
@@ -63,9 +82,10 @@ h1{
     text-transform: uppercase;
     background-color:#1da1f2 ;
     text-align: center;
-   margin:5px ;
+    margin:0px 30px 5px 30px;
 
-   } 
+   }
+
    .paticka .odkaz2 :hover{
     background-color:#2b406e ;
    }
@@ -78,13 +98,17 @@ h1{
     text-transform: uppercase;
     text-align: center;
     background-color: #3b5998;
-    margin: 5px;
+    margin :5px 30px 30px 30px;
+    
    }
 
  .paticka {
    
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: block;
+    padding-bottom: 10px;
+
     
  }
 
